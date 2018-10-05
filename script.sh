@@ -7,7 +7,7 @@ COIN_DAEMON='mfitd'
 COIN_CLI='mfit-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/mfitdev/muayfitcoin-.git'
-COIN_TGZ='https://github.com/mfitdev/muayfitcoin/releases/download/v1.0.0/Linux.zip'
+COIN_TGZ='https://github.com/muayfitcoin/muayfitcoin/releases/download/v1.0.0/Linux.zip'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 
 COIN_NAME='Mfit'
