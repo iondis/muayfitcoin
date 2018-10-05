@@ -11,8 +11,8 @@ COIN_TGZ='https://github.com/muayfitcoin/muayfitcoin/releases/download/v1.0.0/Li
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
 
 COIN_NAME='Mfit'
-COIN_PORT=9511
-RPC_PORT=9512
+COIN_PORT=1188
+RPC_PORT=1189
 NODEIP=$(curl -s4 icanhazip.com)
 
 BLUE="\033[0;34m"
